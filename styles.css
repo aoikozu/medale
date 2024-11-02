@@ -1,31 +1,18 @@
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
     background-color: #f0f0f0;
 }
-
-.game-container {
-    width: 300px;
-    margin: 0 auto;
-    text-align: center;
+#game-area {
+    margin: auto;
+    width: 600px;
+    border: 2px solid #333;
+    background-color: #fff;
+    padding: 20px;
 }
-
-.coin-container {
+#pusher-area {
+    height: 200px;
+    background-color: #ccc;
     position: relative;
-    height: 300px;
-    border: 1px solid #ccc;
-    overflow: hidden;
 }
 
-.coin {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: gold; /* メダルの色 */
-    border-radius: 50%; /* 円形 */
-    transition: transform 0.5s ease; /* アニメーション効果 */
-}
-
-#jackpot-notification {
-    color: red;
-    font-size: 1.2em;
-}
