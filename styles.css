@@ -20,18 +20,12 @@ body {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: gold;
-    border-radius: 50%;
-    transition: transform 0.5s ease;
+    background-color: gold; /* メダルの色 */
+    border-radius: 50%; /* 円形 */
+    transition: transform 0.5s ease; /* アニメーション効果 */
 }
 
 #jackpot-notification {
     color: red;
     font-size: 1.2em;
-}
-
-
-#scoreboard {
-    margin-top: 10px;
-    text-align: center;
 }
