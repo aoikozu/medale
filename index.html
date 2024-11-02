@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プッシャーメダルゲーム</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>フォーチュントリニティ風メダルゲーム</title>
 </head>
 <body>
-    <div class="game-container">
-        <h1>プッシャーメダルゲーム</h1>
-        <div id="medal-count">メダル枚数: <span id="medals">10</span></div>
-        <div id="jackpot-notification"></div>
-        <button id="drop-coin">メダル投入</button>
-        <div id="coins" class="coin-container"></div>
+    <h1>フォーチュントリニティ風メダルゲーム</h1>
+    <div id="game-area">
+        <div id="pusher-area">
+            <img src="assets/pusher.png" id="pusher" alt="Pusher">
+        </div>
+        <button id="drop-button">メダルを投入</button>
+        <div id="jackpot-area">Jackpot: <span id="jackpot-count">0</span></div>
+        <div id="lottery-area"></div>
+        <p id="message"></p>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-
