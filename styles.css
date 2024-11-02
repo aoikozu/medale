@@ -11,8 +11,15 @@ body {
     padding: 20px;
 }
 #pusher-area {
+    position: relative;
     height: 200px;
     background-color: #ccc;
-    position: relative;
 }
-
+#jackpot-area {
+    margin-top: 20px;
+    font-size: 24px;
+}
+#drop-button {
+    margin-top: 10px;
+    padding: 10px;
+}
