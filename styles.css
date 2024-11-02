@@ -1,56 +1,35 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-color: #f0f0f0;
 }
 
-#game {
-    position: relative;
+.game-container {
     width: 300px;
-    height: 400px;
-    border: 2px solid #000;
-    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.coin-container {
+    position: relative;
+    height: 300px;
+    border: 1px solid #ccc;
     overflow: hidden;
 }
 
-#coin-slot {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 40px;
-    height: 20px;
-    background-color: #555;
-    transform: translateX(-50%);
-}
-
-#coins {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .coin {
+    position: absolute;
     width: 20px;
     height: 20px;
     background-color: gold;
     border-radius: 50%;
-    margin: 2px;
+    transition: transform 0.5s ease;
 }
 
-#pusher {
-    position: absolute;
-    bottom: 60px;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background-color: #888;
-    transition: transform 0.2s;
+#jackpot-notification {
+    color: red;
+    font-size: 1.2em;
 }
+
 
 #scoreboard {
     margin-top: 10px;
